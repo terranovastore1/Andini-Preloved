@@ -4253,5 +4253,16 @@ body.page-home:has(#introScreen:not(.intro-out)) .navbar {
     -webkit-overflow-scrolling: touch;
     overscroll-behavior-y: none;
   }
+
+  /* 6. Matikan elemen dekorasi animasi bergerak di hero (emoji berputar & melayang) */
+  .hero-decor {
+    display: none !important;
+  }
+
+  .hero-title {
+    animation: none !important;
+    text-shadow: 0 0 10px rgba(var(--cyan-rgb), 0.5) !important;
+  }
 }
+
 
